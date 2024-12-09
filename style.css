@@ -1,10 +1,16 @@
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 body{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1600px;
+    /* overflow: hidden; */
+  
+
 }
 
 
@@ -12,11 +18,14 @@ body{
 .header-container{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+
     background-color: #ffffff;
     align-items: center;
     height: 65px;
     /* margin-top: 15px; */
     padding-top: 10px;
+    width: 100vw;
     position: sticky;
     top: 0;
     z-index: 11;
@@ -32,8 +41,8 @@ body{
     display: flex;
     list-style-type: none;
     gap: 25px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 800;
     font-family: "Nunito Sans", sans-serif;
     color: #013289;
     position: relative;
@@ -44,6 +53,8 @@ body{
     color: #4757f1;
     border-bottom: 3px solid #4154F1;
 }
+
+
 
 .drop-down{
     position: relative;
@@ -75,6 +86,8 @@ body{
 /* ==============hero section starts here================ */
 
 .hero-container{
+    overflow: hidden;
+
     display: flex;
     justify-content: space-between  ;
     /* flex-wrap: wrap; */
@@ -110,6 +123,7 @@ body{
     margin-top: 20px;
     display: flex;
     align-items: center;  
+    width: 200px;
     
 }
 
@@ -127,8 +141,16 @@ body{
     /* margin-left: 100px; */
     color: white;
     align-items: center;
-    width: 140px;
+    width: 150px;
 }
+
+.btn a:link{
+    color: white;
+}
+.btn a:visited{
+    color: white;
+}
+
 
 .btn-arrow{
     padding-left:8px;
@@ -153,6 +175,8 @@ body{
 
 .intro-container{
     display: flex;
+    overflow: hidden;
+
     justify-content: center;
     padding: 5px 120px ;
     margin-top: 50px;
@@ -190,6 +214,8 @@ color: #444444;
 
 /* =================coding langauges===== */
 .text-heading-container{
+    overflow: hidden;
+
     text-align: center;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 100px;
@@ -211,6 +237,8 @@ color: #444444;
 
 
 .languages{
+    overflow: hidden;
+
     margin-top: 50px;
     padding: 5px 120px ;
     display: flex;
@@ -227,6 +255,8 @@ color: #444444;
 /* ================cards ============= */
 
 .cards-container{
+    overflow: hidden;
+
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -235,6 +265,7 @@ color: #444444;
 }
 
 .card{
+    
     text-align: center;
     border-bottom: 5px solid #2db6fa;
     font-family: "Nunito Sans", sans-serif;
@@ -464,6 +495,8 @@ color: #444444;
 /* =================core -value section starts from here ======================= */
 
 .core-value-container{
+    overflow: hidden;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -493,6 +526,8 @@ color: #444444;
 }
 
 .box{
+    overflow: hidden;
+
     display: flex;
     align-items: center;
     gap: 10px;
@@ -565,10 +600,13 @@ color: #444444;
 
 /* ----------------portfolio section css==================== */
 .portfolio-container{
+    overflow: hidden;
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0px 90px;
+    overflow: hidden;
+    /* padding: 0px 90px; */
     
     flex-wrap: wrap;
 }
@@ -601,10 +639,7 @@ color: #444444;
   }
 
 
-.portfolio:hover .portfolio-img{
-  
-    /* position: relative; */
-}
+
 .portfolio-text{
     position: absolute;
     font-size: larger;
@@ -667,6 +702,8 @@ color: #444444;
 
 
 .rec-container{
+    overflow: hidden;
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -707,6 +744,122 @@ color: #444444;
 }
 
 
+/* ==============contact============= */
+
+
+
+.contact-container{
+    overflow: hidden;
+
+    display: flex;
+    margin-top: 50px;
+    
+    justify-content: space-evenly; 
+    align-items: center;
+    font-family:sans-serif;
+    /* flex-wrap: wrap; */
+
+}
+
+.sub-contact{
+    
+    display: flex;
+    padding-left: 20px;
+    /* width: 70px; */
+    flex-wrap: wrap;
+    /* justify-content: space-evenly;  */
+    /* width: 700px; */
+
+}
+
+.sub2{
+    padding-right: 100px;
+}
+
+.contact-left{
+    align-items: center;
+    
+
+    padding: 20px 25px;
+    width: 240px;
+    height: 190px;
+    background-color: #F6F9FF;
+    margin: 10px 20px;
+}
+
+.contact-left h3{
+    font-size: 25px;
+    color: #2c56a0;
+
+}
+.contact-left p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.form{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F9FF;
+    padding: 30px;
+}
+
+form input{
+    width: 440px;
+    padding: 15px 15px;
+    outline: none;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#m1{
+    width: 440px;
+    margin-left: 20px;
+    margin-top: 5px;
+    /* height: 100px; */
+    outline: none;
+    overflow: hidden;
+    /* padding: 0; */
+    padding: 15px 15px;
+
+}
+
+.same-inp{
+    display: flex;
+    justify-content: center;
+}
+
+.same-inp input{
+   
+    width: 200px;
+    height: 15px;
+    margin-left: 20px;
+
+}
+
+.btn2{
+    padding: 13px 22px;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 30px;
+    background-color: #4154F1;
+    overflow: hidden;
+
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+
+
+
 
 /* ======================rec section edns================ */
 
@@ -717,6 +870,7 @@ color: #444444;
 
 
 .career{
+    
    display: flex;
    justify-content: start;
    text-align: center;
@@ -784,11 +938,126 @@ color: #444444;
 
 
 
+/* ============news css=============== */
+
+.news{
+    background-color: #F6F9FF;
+    margin-top: 80px;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+.news-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.input input{
+    width: 50vw;
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid #d5dce9;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-left: 20px;
+    /* margin-top: 20px; */ 
+
+}
+.btn3{
+    padding: 10px 22px;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 170px; */
+    /* margin-top: 30px; */
+    background-color: #4154F1;
+    color: white;
+    /* border-radius: 7px; */
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: none;
+}
 
 
 
 
 
+
+/* ========footer============= */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    padding: 70px;
+
+}
+
+.footer-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #444444;
+}
+
+.footer-lists {
+    list-style-type: none;
+}
+
+.li-1 {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #031e4d;
+}
+
+.li-1:hover {
+    color: #031e4d;
+
+}
+
+li {
+    margin: 10px 0px;
+    font-size: medium;
+    color: #2e63be;
+}
+
+li:hover {
+    color: #497fdd;
+}
+
+.contact p {
+    padding-left: 33px;
+}
+
+.end{
+    text-align: center;
+    color: #013289;
+}
+.end span{
+    color: #4154F1;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+
+
+a:link{
+    color: #013289;
+}
+
+
+a:visited{
+    color: #013289;
+}
 
 
 
@@ -805,7 +1074,143 @@ color: #444444;
 }
 
 
-@media (max-width:1200px){
+
+[11:51 PM, 12/9/2024] Saad ❤️: Bro mn tmhen bhej rha hun phir tm apne github pr update krna and then mn wo updated version github pr push krunga na
+[11:51 PM, 12/9/2024] Tanzeel: k
+[11:52 PM, 12/9/2024] Saad ❤️: <footer>
+        <div class="footer-text">
+            <img src="https://www.expertizouniversity.pk/img/UniLogo.png" alt="" height="100px" width="120px">
+            <p>With a team of experienced professionals, we provide end-to-end <br>software development services, from
+                requirements gathering to <br> deployment. Their expertise spans across various technologies, <br> enabling us to
+                develop tailored software solutions that meet clients' <br> unique business needs.</p>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24" fill="grey" >
+                    <path d="M11.666,2.005C6.62,2.17,2.374,6.251,2.025,11.288c-0.369,5.329,3.442,9.832,8.481,10.589V14.65H8.892 c-0.726,0-1.314-0.588-1.314-1.314v0c0-0.726,0.588-1.314,1.314-1.314h1.613v-1.749c0-2.896,1.411-4.167,3.818-4.167 c0.357,0,0.662,0.008,0.921,0.021c0.636,0.031,1.129,0.561,1.129,1.198v0c0,0.663-0.537,1.2-1.2,1.2h-0.442 c-1.022,0-1.379,0.969-1.379,2.061v1.437h1.87c0.591,0,1.043,0.527,0.953,1.111l-0.108,0.701c-0.073,0.47-0.477,0.817-0.953,0.817 h-1.762v7.247C18.235,21.236,22,17.062,22,12C22,6.366,17.341,1.821,11.666,2.005z"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30" fill="grey">
+                    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+                </svg>
+        </div>
+
+        <div>
+            <ul class="footer-lists">
+                <li class="li-1">Useful links</li><br>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Contacts</li>
+                <li>Careers</li>
+            </ul>
+        </div> 
+        <div>
+            <ul class="footer-lists">
+                <li class="li-1">Our Solutions</li><br>
+                <li>Web Development</li>
+                <li>Mobile-App-Development</li>
+                <li>Blockchain-Development</li>
+                <li>Trainings</li>
+                <li>Spaces</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <ul class="footer-lists">
+                <li class="li-1"> Conatct us</li>
+            </ul><br>
+            <p>Office-no.5,</p>
+            <p>Mazhar arcade bahadurabad</p>
+            <p>Karachi,Pakistan</p>
+            <p><b>Phone:</b>021-33325791</p>
+            <p><b>Email:</b>info@expertizo.pk</p>
+        </div>
+    </footer>
+
+    <div class="end">
+        <p>© Copyright <b>Expertizo</b> . All Rights Reserved</p>
+    </div>
+    <div class="end">
+       <p> Designed by <span>Expertizo</span></p>
+    </div>
+[11:52 PM, 12/9/2024] Tanzeel: images wagerah change krdena cards ki
+[11:52 PM, 12/9/2024] Tanzeel: css?
+[11:52 PM, 12/9/2024] Saad ❤️: ye html he poora copy kr lo
+[11:52 PM, 12/9/2024] Saad ❤️: w8
+[11:53 PM, 12/9/2024] Saad ❤️: footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    padding: 70px;
+
+}
+
+.footer-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    color: #444444;
+}
+
+.footer-lists {
+    list-style-type: none;
+}
+
+.li-1 {
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #031e4d;
+}
+
+.li-1:hover {
+    color: #031e4d;
+
+}
+
+li {
+    margin: 10px 0px;
+    font-size: medium;
+    color: #2e63be;
+}
+
+li:hover {
+    color: #497fdd;
+}
+
+.contact p {
+    padding-left: 33px;
+}
+
+.end{
+    text-align: center;
+    color: #013289;
+}
+.end span{
+    color: #4154F1;
+}
+
+
+
+@media (max-width: 991px) {
+            footer {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .footer-text,
+            .footer-lists {
+                text-align: center;
+                width: 100%;
+            }
+        
+            .footer-lists li {
+                display: block;
+            }
+            .contact p{
+                text-align: center;
+            }
+        }
+
+
+@media (max-width:1300px){
     .nav-items{
         display: none;
     }
@@ -853,8 +1258,30 @@ color: #444444;
     .core-value-container{
         justify-content: center;
     }
+    
+
+
+    
+    .contact-left{
+        /* display: flex; */
+        width: 200px;
+        height: 150px;
+    }
+    .contact-left h3{
+        font-size: 20px;
+        color: #2c56a0;
+    
+    }
+    .contact-left p{
+        font-size: 15px;
+        font-weight: 400;
+    }
 }
 
+
+@media screen and (max-width:991px) {
+    
+}
 
 
 
@@ -992,6 +1419,72 @@ color: #444444;
     .career-card{
         margin-bottom: 30px;
     }
+
+    .contact-container{
+        display: block;
+      
+    }
+
+    .contact-left{
+        /* display: flex; */
+        margin: 20px auto;
+        width: 260px;
+        height: 160px;
+        padding: 40px 55px;
+    }
+
+    .contact-left h3{
+        font-size: 25px;
+        color: #2c56a0;
+    
+    }
+    .contact-left p{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .form{
+        margin: 0 auto;
+        /* padding: 20px; */
+    }
+    .form input{
+        width: 75vw;
+    }
+
+    #m1{
+        width: 75vw;
+    }
+    .same-inp {
+        display: block;
+
+    }
+    .same-inp input{
+        width: 75vw;
+    }
+    .sub2{
+        padding-left: 0;
+    }
+    .btn2{
+        margin: 10px auto;
+    }
+
+
+    .btn3{
+        /* padding: 10px 22px; */
+        padding: 9px 10px;
+        
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* margin-left: 170px; */
+        /* margin-top: 30px; */
+        background-color: #4154F1;
+        color: white;
+        /* border-radius: 7px; */
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border: none;
+    }
+    
 
 }
 
