@@ -1,21 +1,20 @@
-
-html{
+html {
     scroll-behavior: smooth;
 }
 
 
-body{
+body {
     padding: 0;
     margin: 0 auto;
     max-width: 1600px;
     /* overflow: hidden; */
-  
+
 
 }
 
 
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     /* overflow: hidden; */
@@ -25,19 +24,20 @@ body{
     height: 65px;
     /* margin-top: 15px; */
     padding-top: 10px;
-    width: 100vw;
+    /* width: 100vw; */
     position: sticky;
     top: 0;
     z-index: 11;
     box-shadow: 0px 0px 5px #012970;
-    
-    
+
+
 }
-.logo{
+
+.logo {
     padding-left: 110px;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     list-style-type: none;
     gap: 25px;
@@ -49,28 +49,28 @@ body{
     padding-right: 150px;
 }
 
-.nav-items li:hover{
+.nav-items li:hover {
     color: #4757f1;
     border-bottom: 3px solid #4154F1;
 }
 
 
 
-.drop-down{
+.drop-down {
     position: relative;
 
     /* display: inline-block; */
 }
 
-.drop-down:hover .ul2{
+.drop-down:hover .ul2 {
     display: block;
     transition-timing-function: ease-in-out;
 }
 
-.ul2{
+.ul2 {
     padding: 0px;
     position: absolute;
-    top: 50px;
+    top: 30px;
     display: none;
     list-style-type: none;
     background-color: #fffffffd;
@@ -84,16 +84,17 @@ body{
     /* display: none; */
 }
 
-.ul2 li{
+.ul2 li {
     padding-top: 20px;
 }
+
 /* ==============hero section starts here================ */
 
-.hero-container{
+.hero-container {
     overflow: hidden;
 
     display: flex;
-    justify-content: space-between  ;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
     background-color: #F2F5FC;
     /* height: 0vw; */
@@ -104,34 +105,36 @@ body{
 
 
 
-.hero-text{
-     font-size: 48px;
+.hero-text {
+    font-size: 48px;
     font-family: "Nunito Sans", sans-serif;
     /* box-sizing: border-box; */
-    padding: 10px 120px ;
+    padding: 10px 120px;
     margin-top: 90px;
     color: #012970;
     font-weight: 700;
     white-space: 50px;
     line-height: 50px;
 }
-.hero-text2{
+
+.hero-text2 {
     font-family: "Nunito Sans", sans-serif;
     color: #444444;
-    padding: 5px 120px ;
+    padding: 5px 120px;
     font-size: 28px;
 }
 
-.btn-container{
-    padding: 5px 120px ;    
+.btn-container {
+    padding: 5px 120px;
     margin-top: 20px;
+
     display: flex;
-    align-items: center;  
+    align-items: center;
     width: 200px;
-    
+
 }
 
-.btn{
+.btn {
     padding: 13px 35px;
     font-size: 17px;
     text-align: center;
@@ -148,18 +151,20 @@ body{
     width: 150px;
 }
 
-.btn a:link{
+.btn a:link {
     color: white;
 }
-.btn a:visited{
+
+.btn a:visited {
     color: white;
 }
 
 
-.btn-arrow{
-    padding-left:8px;
+.btn-arrow {
+    padding-left: 8px;
 }
-.btn:hover .btn-arrow{
+
+.btn:hover .btn-arrow {
     padding-left: 15px;
     transition-property: all;
     transition: 0.2s;
@@ -167,57 +172,58 @@ body{
 
 }
 
-.hero-logo-default{
+.hero-logo-default {
     padding-right: 120px;
     margin-top: 50px;
-    height:450px;
-     width:600px;
+    height: 450px;
+    width: 600px;
 }
 
 /* =================intro -section ============ */
 
 
-.intro-container{
+.intro-container {
     display: flex;
     overflow: hidden;
 
     justify-content: center;
-    padding: 5px 120px ;
+    padding: 5px 120px;
     margin-top: 50px;
     /* margin-top: 50px; */
     font-family: "Nunito Sans", sans-serif;
 }
 
-.intro-text-container{
+.intro-text-container {
     background-color: #F2F5FC;
     padding: 50px 50px;
-   
+
 }
 
-.short-heading{
+.short-heading {
     font-size: 16px;
     color: #4757f1;
     font-weight: 700;
 }
-.big-heading{
+
+.big-heading {
     font-size: 25px;
     color: #012970;
     font-weight: 700;
     padding-top: 20px;
-    
+
 }
 
-.text{
-font-size: 16.5px;
-padding-top: 20px;
-color: #444444;
+.text {
+    font-size: 16.5px;
+    padding-top: 20px;
+    color: #444444;
 }
 
 
 /* =======intro section ends ============ */
 
 /* =================coding langauges===== */
-.text-heading-container{
+.text-heading-container {
     overflow: hidden;
 
     text-align: center;
@@ -225,76 +231,79 @@ color: #444444;
     margin-top: 100px;
 }
 
-.short-heading2{
+.short-heading2 {
     font-size: 16px;
     color: #4757f1;
     font-weight: 700;
 }
-.big-heading2{
+
+.big-heading2 {
     font-size: 40px;
     color: #012970;
     font-weight: 700;
     padding-top: 20px;
-    
-    
+
+
 }
 
 
-.languages{
+.languages {
     overflow: hidden;
 
     margin-top: 50px;
-    padding: 5px 120px ;
+    padding: 5px 120px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
 }
 
-.circles{
+.circles {
     display: flex;
     justify-content: center;
     gap: 8px;
 }
+
 /* ================cards ============= */
 
-.cards-container{
+.cards-container {
     overflow: hidden;
 
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 10px 40px;
+    padding: 20px 80px;
 
 }
 
-.card{
-    
+.card {
+
     text-align: center;
     border-bottom: 5px solid #2db6fa;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 50px;
     border-radius: 7px;
-    
+
     padding: 50px 30px 70px 30px;
 
 }
+
 .card:hover {
     background-color: #2db6fa;
     color: white;
     transition-duration: 0.3s;
 }
 
-.card:hover .message-icon{
-    background-color:white;
+.card:hover .message-icon {
+    background-color: white;
 }
 
-.card:hover  .card-heading{
+.card:hover .card-heading {
     color: white;
 }
 
 
-.message-icon{
+.message-icon {
     margin-bottom: 50px;
     background-color: #C2FFFF;
     border-radius: 5px;
@@ -303,7 +312,7 @@ color: #444444;
 }
 
 
-.card-heading{
+.card-heading {
     font-size: 30px;
     font-weight: 600;
     /* margin: px 0px; */
@@ -311,37 +320,39 @@ color: #444444;
     line-height: 25px;
 }
 
-.card-text{
+.card-text {
     font-size: 18px;
     font-weight: 500;
 }
 
 
 /* ======2nd card css=============== */
-.card2{
+.card2 {
     text-align: center;
     border-bottom: 5px solid #F68C09;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 50px;
     border-radius: 7px;
-    
+
     padding: 50px 30px 70px 30px;
 
 }
+
 .card2:hover {
     background-color: #F68C09;
     color: white;
     transition-duration: 0.3s;
 }
 
-.card2:hover .message-icon{
-    background-color:white;
+.card2:hover .message-icon {
+    background-color: white;
 }
 
-.card2:hover  .card-heading{
+.card2:hover .card-heading {
     color: white;
 }
-.message-icon2{
+
+.message-icon2 {
     margin-bottom: 50px;
     background-color: #f1cc9e;
     border-radius: 5px;
@@ -351,30 +362,32 @@ color: #444444;
 
 /* ----------------3rd card----------------- */
 
-.card3{
+.card3 {
     text-align: center;
     border-bottom: 5px solid #08DA4E;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 50px;
     border-radius: 7px;
-    
+
     padding: 50px 30px 70px 30px;
 
 }
+
 .card3:hover {
     background-color: #08DA4E;
     color: white;
     transition-duration: 0.3s;
 }
 
-.card3:hover .message-icon3{
-    background-color:white;
+.card3:hover .message-icon3 {
+    background-color: white;
 }
 
-.card3:hover  .card-heading{
+.card3:hover .card-heading {
     color: white;
 }
-.message-icon3{
+
+.message-icon3 {
     margin-bottom: 50px;
     background-color: #b5f1ba;
     border-radius: 5px;
@@ -386,30 +399,32 @@ color: #444444;
 /* =====4th card============== */
 
 
-.card4{
+.card4 {
     text-align: center;
     border-bottom: 5px solid #E9222C;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 50px;
     border-radius: 7px;
-    
+
     padding: 50px 40px 70px 30px;
 
 }
+
 .card4:hover {
     background-color: #E9222C;
     color: white;
     transition-duration: 0.3s;
 }
 
-.card4:hover .message-icon4{
-    background-color:white;
+.card4:hover .message-icon4 {
+    background-color: white;
 }
 
-.card4:hover  .card-heading{
+.card4:hover .card-heading {
     color: white;
 }
-.message-icon4{
+
+.message-icon4 {
     margin-bottom: 50px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -419,30 +434,32 @@ color: #444444;
 
 /* ===================5th card================== */
 
-.card5{
+.card5 {
     text-align: center;
     border-bottom: 5px solid #B50EDF;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 50px;
     border-radius: 7px;
-    
+
     padding: 50px 40px 70px 30px;
 
 }
+
 .card5:hover {
     background-color: #B50EDF;
     color: white;
     transition-duration: 0.3s;
 }
 
-.card5:hover .message-icon5{
-    background-color:white;
+.card5:hover .message-icon5 {
+    background-color: white;
 }
 
-.card5:hover  .card-heading{
+.card5:hover .card-heading {
     color: white;
 }
-.message-icon5{
+
+.message-icon5 {
     margin-bottom: 50px;
     background-color: #dac7df;
     border-radius: 5px;
@@ -450,7 +467,7 @@ color: #444444;
     padding: 30px;
 }
 
-.more-info{
+.more-info {
     font-size: 20px;
     padding-top: 20px;
     color: #B50EDF;
@@ -460,30 +477,32 @@ color: #444444;
 
 
 /* ===========6================ */
-.card6{
+.card6 {
     text-align: center;
     border-bottom: 5px solid #F51F9C;
     font-family: "Nunito Sans", sans-serif;
     margin-top: 50px;
     border-radius: 7px;
-    
+
     padding: 50px 40px 70px 30px;
 
 }
+
 .card6:hover {
     background-color: #F51F9C;
     color: white;
     transition-duration: 0.3s;
 }
 
-.card6:hover .message-icon6{
-    background-color:white;
+.card6:hover .message-icon6 {
+    background-color: white;
 }
 
-.card6:hover  .card-heading{
+.card6:hover .card-heading {
     color: white;
 }
-.message-icon6{
+
+.message-icon6 {
     margin-bottom: 50px;
     background-color: #f1b5d8;
     border-radius: 5px;
@@ -498,14 +517,14 @@ color: #444444;
 
 /* =================core -value section starts from here ======================= */
 
-.core-value-container{
+.core-value-container {
     overflow: hidden;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 100px ;
+    padding: 10px 100px;
     margin-top: 50px;
     font-family: "Nunito Sans", sans-serif;
     color: #013289;
@@ -514,22 +533,22 @@ color: #444444;
 
 }
 
-.box-container{
+.box-container {
     display: flex;
     gap: 25px;
 }
 
-.core-text{
+.core-text {
     margin-top: 20px;
     /* margin-left: 30px; */
 }
 
 
-.row{
+.row {
     /* display: flex; */
 }
 
-.box{
+.box {
     overflow: hidden;
 
     display: flex;
@@ -541,59 +560,61 @@ color: #444444;
     font-size: 18px;
     margin-bottom: 20px;
     box-shadow: 0px 2px 40px #d5daf0;
-    
+
 }
 
-.box:hover i{
+.box:hover i {
     background-color: #4154F1;
     color: white;
     transition: 0.2s;
 
 }
 
-.box i{
+.box i {
     background-color: #d5daf0;
     padding: 7px 10px;
     border-radius: 4px;
 }
 
-.box span{
- 
-}
+.box span {}
 
-.hero-logo-laptop{
+.hero-logo-laptop {
     display: none;
 }
 
-.hero-logo-default{
+.hero-logo-default {
     display: none;
 }
 
-.hero-logo-mobile{
+.hero-logo-mobile {
     display: none;
 }
 
-.menu-icon{
+.menu-icon {
     display: none;
 }
 
-.intro-logo-default{
+.intro-logo-default {
     display: block;
 }
-.intro-logo-laptop{
-    display: none;
-}
-.intro-logo-mobile{
+
+.intro-logo-laptop {
     display: none;
 }
 
-.core-logo{
-    display: block;
-}
-.core-logo-laptop{
+.intro-logo-mobile {
     display: none;
 }
-.core-logo-mobile{
+
+.core-logo {
+    display: block;
+}
+
+.core-logo-laptop {
+    display: none;
+}
+
+.core-logo-mobile {
     display: none;
 }
 
@@ -603,7 +624,7 @@ color: #444444;
 
 
 /* ----------------portfolio section css==================== */
-.portfolio-container{
+.portfolio-container {
     overflow: hidden;
 
     display: flex;
@@ -611,41 +632,42 @@ color: #444444;
     align-items: center;
     overflow: hidden;
     /* padding: 0px 90px; */
-    
+
     flex-wrap: wrap;
 }
 
-.portfolio{
+.portfolio {
     position: relative;
     margin-bottom: 20px;
     padding: 0px 15px;
-    
+
 }
 
-.portfolio:hover .portfolio-text{
+.portfolio:hover .portfolio-text {
     display: block;
-   transition-duration: 1s;
+    transition-duration: 1s;
 }
 
-.portfolio-img{
+.portfolio-img {
     width: 350px;
     height: 350px;
     overflow: hidden;
 }
 
-.portfolio-img img{
+.portfolio-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     transition: transform 0.5s ease;
 }
+
 .portfolio:hover img {
-    transform: scale(1.1); 
-  }
+    transform: scale(1.1);
+}
 
 
 
-.portfolio-text{
+.portfolio-text {
     position: absolute;
     font-size: larger;
     color: #012970;
@@ -657,7 +679,7 @@ color: #444444;
     text-align: center;
 }
 
-.text2{
+.text2 {
     font-size: 20px;
     font-weight: 800;
     font-family: "Nunito Sans", sans-serif;
@@ -665,35 +687,36 @@ color: #444444;
 }
 
 
-.portfolio-navbar ul{
+.portfolio-navbar ul {
     display: flex;
     justify-content: center;
     color: #585858;
     font-size: 16px;
     font-weight: 700;
     /* font-family: "Nunito Sans", sans-serif; */
-    font-family:sans-serif;
+    font-family: sans-serif;
     text-align: center;
     margin-top: 30px;
     list-style: none;
     gap: 20px;
-  
-       
+
+
 }
 
-.portfolio-navbar li{
-    
+.portfolio-navbar li {
+
     padding: 7px 20px;
-    border-radius: 50px; 
-     border: 1px solid #ffffff;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
 }
 
-#all{
+#all {
     color: #2e63be;
     border: 1px solid #2e63be;
 }
 
-#app:hover , #web:hover{
+#app:hover,
+#web:hover {
     color: #2e63be;
     border: 1px solid #2e63be;
     transition: 0.3s;
@@ -706,7 +729,7 @@ color: #444444;
 /* ====================recommandation starts================= */
 
 
-.rec-container{
+.rec-container {
     overflow: hidden;
 
     display: flex;
@@ -717,32 +740,33 @@ color: #444444;
     /* padding: 0px 10px; */
 }
 
-#rec2{
+#rec2 {
     box-shadow: 0px 0px 17px #dadadf;
     border-radius: 4px;
 }
 
-.rec-card{
-   
+.rec-card {
+
     padding: 20px;
 
 }
 
-.rec-text{
-   width: 300px;
-   font-size: 20px;
-   color: rgb(68, 64, 64);
-   /* font-family: "Nunito Sans", sans-serif; */
+.rec-text {
+    width: 300px;
+    font-size: 20px;
+    color: rgb(68, 64, 64);
+    /* font-family: "Nunito Sans", sans-serif; */
 
 }
 
-.rec-img{
+.rec-img {
     border-radius: 50%;
-    height:150px;
-     width:150px;
+    height: 150px;
+    width: 150px;
 }
 
-#rec1,#rec3{
+#rec1,
+#rec3 {
     opacity: 0.3;
     box-shadow: 0px 0px 17px #dadadf;
 
@@ -753,21 +777,21 @@ color: #444444;
 
 
 
-.contact-container{
+.contact-container {
     overflow: hidden;
 
     display: flex;
     margin-top: 50px;
-    
-    justify-content: space-evenly; 
+
+    justify-content: space-evenly;
     align-items: center;
-    font-family:sans-serif;
+    font-family: sans-serif;
     /* flex-wrap: wrap; */
 
 }
 
-.sub-contact{
-    
+.sub-contact {
+
     display: flex;
     padding-left: 20px;
     /* width: 70px; */
@@ -777,13 +801,13 @@ color: #444444;
 
 }
 
-.sub2{
+.sub2 {
     padding-right: 100px;
 }
 
-.contact-left{
+.contact-left {
     align-items: center;
-    
+
 
     padding: 20px 25px;
     width: 240px;
@@ -792,27 +816,28 @@ color: #444444;
     margin: 10px 20px;
 }
 
-.contact-left h3{
+.contact-left h3 {
     font-size: 25px;
     color: #2c56a0;
 
 }
-.contact-left p{
+
+.contact-left p {
     font-size: 17px;
     font-weight: 400;
 }
 
 
-.form{
+.form {
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
     background-color: #F6F9FF;
     padding: 30px;
 }
 
-form input{
+form input {
     width: 440px;
     padding: 15px 15px;
     outline: none;
@@ -821,7 +846,7 @@ form input{
     margin-top: 20px;
 }
 
-#m1{
+#m1 {
     width: 440px;
     margin-left: 20px;
     margin-top: 5px;
@@ -833,20 +858,20 @@ form input{
 
 }
 
-.same-inp{
+.same-inp {
     display: flex;
     justify-content: center;
 }
 
-.same-inp input{
-   
-    width: 200px;
+.same-inp input {
+
+    width: 195px;
     height: 15px;
-    margin-left: 20px;
+    margin-left: 14px;
 
 }
 
-.btn2{
+.btn2 {
     padding: 13px 22px;
     font-size: 17px;
     text-align: center;
@@ -874,18 +899,18 @@ form input{
 
 
 
-.career{
-    
-   display: flex;
-   justify-content: start;
-   text-align: center;
-   flex-wrap: wrap;
-   margin-top: 30px;
-   padding-left: 50px;
+.career {
+
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-left: 50px;
 }
 
 
-.career-card{
+.career-card {
     padding: 30px;
     font-family: "Nunito Sans", sans-serif;
     /* border: 1px solid rgb(185, 185, 185); */
@@ -899,16 +924,16 @@ form input{
 
 
 
-.career-heading{
+.career-heading {
     font-size: 20px;
     font-family: "Nunito Sans", sans-serif;
     color: #012970;
     font-weight: 700;
     /* padding-top: 20px; */
-    padding: 20px 20px;  
+    padding: 20px 20px;
 }
 
-.career-bg-text{
+.career-bg-text {
     font-size: 20px;
     margin-top: 20px;
     font-family: "Nunito Sans", sans-serif;
@@ -920,23 +945,24 @@ form input{
     /* padding-top: 20px; */
 }
 
-.career-text{
+.career-text {
     width: 300px;
     font-size: 17px;
     margin-top: 30px;
     /* padding: 20px; */
     color: rgb(68, 64, 64);
     /* font-family: "Nunito Sans", sans-serif; */
- 
- }
+
+}
 
 
-.career-card:hover .career-img{
+.career-card:hover .career-img {
     transform: scale(0.9);
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
-.career-card:hover{
+
+.career-card:hover {
     box-shadow: 0px 0px 20px #dadadf;
 
 }
@@ -945,21 +971,21 @@ form input{
 
 /* ============news css=============== */
 
-.news{
+.news {
     background-color: #F6F9FF;
     margin-top: 80px;
     padding: 20px 0px;
     overflow: hidden;
 }
 
-.news-container{
+.news-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
 
-.input input{
+.input input {
     width: 50vw;
     padding: 12px 20px;
     outline: none;
@@ -969,10 +995,11 @@ form input{
     margin-left: 20px;
     overflow: hidden;
 
-    /* margin-top: 20px; */ 
+    /* margin-top: 20px; */
 
 }
-.btn3{
+
+.btn3 {
     padding: 10px 22px;
     overflow: hidden;
 
@@ -1057,25 +1084,29 @@ li:hover {
 
 }
 
-.end{
+.end {
     text-align: center;
-    font-family: "Nunito Sans", sans-serif;       
+    font-family: "Nunito Sans", sans-serif;
     color: #013289;
 }
-.end span{
+
+.end span {
     color: #4154F1;
 }
 
+.location {
+    padding-left: 55px;
+}
 
 
 
-.last{
-    background-color: #F6F9FF;  
-    padding: 20px ;     
+.last {
+    background-color: #F6F9FF;
+    padding: 20px;
 
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -1088,12 +1119,12 @@ a{
 
 /* ============all media querries */
 
-@media(min-width:1201px){
-    .hero-logo-default{
-        display: block;     
-    }    
+@media(min-width:1201px) {
+    .hero-logo-default {
+        display: block;
+    }
 
-    
+
 }
 
 @media (max-width: 991px) {
@@ -1111,17 +1142,23 @@ a{
         text-align: center;
         width: 100%;
         padding-left: 0px;
-        
+
+    }
+
+    .location {
+        padding-left: 0px;
     }
 
     .footer-lists li {
         display: block;
     }
-    .contact span{
+
+    .contact span {
         text-align: center;
         padding-left: 0px;
     }
-    .footer-text{
+
+    .footer-text {
         margin-bottom: 50px;
     }
 }
@@ -1137,222 +1174,257 @@ a{
 
 
 
-@media (max-width:1300px){
-    .nav-items{
+@media (max-width:1200px) {
+    .nav-items {
         display: none;
     }
-    .menu-icon{
+
+    .menu-icon {
         display: block;
         padding-right: 45px;
-    }  
-    .hero-text,.hero-text2{
+    }
+
+    .hero-text,
+    .hero-text2 {
         text-align: center;
     }
-    .btn-container{
+
+    .btn-container {
         justify-content: center;
     }
-    .hero-logo-laptop{
+
+    .hero-logo-laptop {
         display: flex;
         justify-content: center;
         margin: 0px auto;
         margin-top: 20px;
     }
-    .intro-logo-default{
+
+    .intro-logo-default {
         display: none;
     }
-    .intro-logo-laptop{
+
+    .intro-logo-laptop {
         display: flex;
         justify-content: center;
-        
-        
+
+
     }
-    .intro-container{
+
+    .intro-container {
         display: block;
         margin: 0 auto;
         padding: 0px 200px;
         margin-top: 50px;
     }
-    .core-logo{
+
+    .core-logo {
         display: none;
     }
-    .core-logo-laptop{
+
+    .core-logo-laptop {
         display: block;
     }
-    .box{
+
+    .box {
         width: 300px;
         margin-top: 50px;
     }
-    .core-value-container{
+
+    .core-value-container {
         justify-content: center;
     }
-    
+
+    .btn-container {
+        margin: 20px auto;
+    }
 
 
-    
-    .contact-left{
+
+
+
+}
+
+
+@media screen and (max-width:1400px) {
+    .contact-left {
         /* display: flex; */
         width: 200px;
         height: 150px;
     }
-    .contact-left h3{
+
+    .contact-left h3 {
         font-size: 20px;
         color: #2c56a0;
-    
+
     }
-    .contact-left p{
+
+    .contact-left p {
         font-size: 15px;
         font-weight: 400;
     }
-}
 
-
-@media screen and (max-width:991px) {
-    
 }
 
 
 
-@media(max-width:990px){
-    .hero-logo-lower{
+@media(max-width:990px) {
+    .hero-logo-lower {
         display: block;
     }
 
-    .logo{
+    .logo {
         padding: 5px 15px;
     }
 
-    .hero-container{
+    .hero-container {
         display: block;
-        padding:80px 0px;
+        padding: 80px 0px;
     }
 
-    .hero-text{
+    .hero-text {
         font-size: 33px;
         font-weight: 700;
         line-height: 38px;
         margin-top: 0;
-        
+
     }
-    .hero-text2{
+
+    .hero-text2 {
         font-size: 24px;
     }
 
-    .hero-text, .hero-text2{
+    .hero-text,
+    .hero-text2 {
         padding: 5px 0px;
     }
 
-    .hero-logo-mobile{
+    .hero-logo-mobile {
         display: flex;
         justify-content: center;
         margin: 0 auto;
         margin-top: 40px;
     }
 
-    .hero-logo-laptop{
+    .hero-logo-laptop {
         display: none;
     }
 
-    .hero-logo-default{
-        display: none;
-    }
-  
-
-    .intro-logo-default{
+    .hero-logo-default {
         display: none;
     }
 
-   .intro-logo-laptop{
-    display: none;
+
+    .intro-logo-default {
+        display: none;
     }
 
-    .intro-text-container{
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: center;
+    .intro-logo-laptop {
+        display: none;
     }
 
-    .intro-logo-mobile{
+    .intro-text-container {
         display: flex;
         justify-content: center;
-        
-        
+        flex-direction: column;
+        align-items: center;
     }
-    .intro-container{
+
+    .intro-logo-mobile {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .intro-container {
         display: block;
         padding: 0px 20px;
         margin: 0 auto;
         margin-top: 50px;
     }
-    .short-heading2{
+
+    .short-heading2 {
         font-size: 15px;
     }
-    .big-heading2{
+
+    .big-heading2 {
         font-size: 30px;
     }
-    .languages{
+
+    .languages {
         padding: 5px 2px;
     }
-    #tailwind, #node {
+
+    #tailwind,
+    #node {
         display: none;
     }
-    .cards-container{
+
+    .cards-container {
         padding: 5px 10px;
     }
 
-    .card-heading{
+    .card-heading {
         font-size: 25px;
     }
 
-    .core-logo{
+    .core-logo {
         display: none;
     }
-    .core-logo-laptop{
+
+    .core-logo-laptop {
         display: none;
     }
-    .core-logo-mobile{
+
+    .core-logo-mobile {
         display: block;
     }
 
-    .box{
+    .box {
         display: block;
         width: 410px;
-        margin-top: 0px;      
+        margin-top: 0px;
     }
 
-    .box i{
+    .box i {
         margin-right: 10px;
     }
-    
-    .row{
-        margin-top: 60px;   
+
+    .row {
+        margin-top: 60px;
     }
 
-    .box-container{
+    .box-container {
         flex-direction: column;
         gap: 0px;
     }
-    .core-value-container{
+
+    .core-value-container {
         justify-content: center;
     }
-    #rec1,#rec3{
+
+    #rec1,
+    #rec3 {
         display: none;
     }
-    .career{
+
+    .career {
         justify-content: center;
         padding: 0;
-        
+
     }
-    .career-card{
+
+    .career-card {
         margin-bottom: 30px;
     }
 
-    .contact-container{
+    .contact-container {
         display: block;
-      
+
     }
 
-    .contact-left{
+    .contact-left {
         /* display: flex; */
         margin: 20px auto;
         width: 260px;
@@ -1360,45 +1432,52 @@ a{
         padding: 40px 55px;
     }
 
-    .contact-left h3{
+    .contact-left h3 {
         font-size: 25px;
         color: #2c56a0;
-    
+
     }
-    .contact-left p{
+
+    .contact-left p {
         font-size: 17px;
         font-weight: 400;
     }
-    .form{
+
+    .form {
         margin: 0 auto;
         /* padding: 20px; */
     }
-    .form input{
+
+    .form input {
         width: 75vw;
     }
 
-    #m1{
+    #m1 {
         width: 75vw;
     }
+
     .same-inp {
         display: block;
 
     }
-    .same-inp input{
+
+    .same-inp input {
         width: 75vw;
     }
-    .sub2{
+
+    .sub2 {
         padding-left: 0;
     }
-    .btn2{
+
+    .btn2 {
         margin: 10px auto;
     }
 
 
-    .btn3{
+    .btn3 {
         /* padding: 10px 22px; */
         padding: 9px 10px;
-        
+
         text-align: center;
         display: flex;
         justify-content: center;
@@ -1411,7 +1490,7 @@ a{
         border-bottom-right-radius: 7px;
         border: none;
     }
-    
+
 
 }
 
@@ -1421,13 +1500,13 @@ a{
 
 /* for small laptops- */
 @media screen and (min-width:991px) and (max-width:1200px) {
-    .hero-container{
+    .hero-container {
         flex-wrap: wrap;
     }
-    
-    .hero-logo-{
+
+    .hero-logo- {
         display: block;
     }
-    
+
 
 }
